@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".SettingsActivity"
+    android:background="@color/rightlayout_color">
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_select"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="Select accuracy: "-->
+        <!--android:gravity="bottom"-->
+        <!--android:textColor="@color/btn_txtcolor"-->
+        <!--android:padding="8dp"-->
+        <!--android:textSize="20sp"/>-->
+
+    <!--<Spinner-->
+        <!--android:id="@+id/spinner_accuracy"-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="@drawable/roundedbutton"-->
+        <!--android:layout_margin="8dp"-->
+        <!--android:layout_below="@id/tv_select"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_set"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="set"-->
+        <!--android:layout_margin="8dp"-->
+        <!--android:layout_below="@id/tv_select"-->
+        <!--android:layout_toRightOf="@id/spinner_accuracy"-->
+        <!--android:background="@drawable/clickbluebg"-->
+        <!--android:textColor="@color/white"/>-->
+
+    <Button
+        android:id="@+id/btn_import"
+        android:layout_width="350dp"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/roundedbutton"
+        android:text="import to sqlite"
+        android:textColor="@color/btn_txtcolor"
+        android:layout_above="@id/btn_export"/>
+
+    <Button
+        android:id="@+id/btn_export"
+        android:layout_width="350dp"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Export to excel backup"
+        android:textColor="@color/btn_txtcolor" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_marginLeft="4dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/white"
+        android:background="@drawable/redbg"
+        android:layout_below="@id/btn_export"/>
+
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_delete"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:text="back"
+        android:textColor="@color/btn_txtcolor"/>
+
+
+</RelativeLayout>
